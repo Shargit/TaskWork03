@@ -6,6 +6,7 @@ public class TaskWork03 {
         myArray2[2] = 4;
         myArray2[3] = 100;
         myArray2[0] = 1; //поменял элементы местами
+        System.out.println("In myArray2 Last element is= "+ myArray2[myArray2.length -1]);
         System.out.println("Sum of first and mid elements in myArray2= "+ (myArray2[4] + myArray2[2]));
     }
         static {
@@ -13,9 +14,6 @@ public class TaskWork03 {
             System.out.println("In myArray1 Last element is= "+ myArray1[myArray1.length -1]);
             System.out.println("In myArray1 Mid element is= "+ myArray1[myArray1.length -3]);
             System.out.println(myArray1[myArray1.length -3]);
-            /* Заметил, что если поставить эту инструкцию на 25-тую строчку, то максимум элементов будет равен пяти.
-             Почему - ещё не понятно
-             */
             myArray1[6] = 5; //поменял элементы местами
             myArray1[1] = 7;
             myArray1[2] = 5;
@@ -23,7 +21,8 @@ public class TaskWork03 {
             myArray1[4] = 2;
             myArray1[5] = 1;
             myArray1[0] = 8; //поменял элементы местами
-            System.out.println("Sum of first and mid elements in myArray1= "+ (myArray1[6] + myArray1[3] + myArray1[2]));
+            System.out.println("Sum of first, mid and last elements in myArray1= "+ (myArray1[6] + myArray1[3] + myArray1[0]));
 
     }
+
 }
