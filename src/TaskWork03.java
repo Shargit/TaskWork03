@@ -11,8 +11,9 @@ public class TaskWork03 {
         static {
         int[] myArray1 = new int[] {1, 2, 3, 4, 5, 6, 7};
             System.out.println("In myArray1 Last element is= "+ myArray1[myArray1.length -1]);
-            System.out.println("In myArray1 Mid element is= "+ (myArray1.length -3));
-            /* Заметил, что если поставить эту инструкцию на 23-тью строчку, то максимум элементов будет равен пяти.
+            System.out.println("In myArray1 Mid element is= "+ myArray1[myArray1.length -3]);
+            System.out.println(myArray1[myArray1.length -3]);
+            /* Заметил, что если поставить эту инструкцию на 25-тую строчку, то максимум элементов будет равен пяти.
              Почему - ещё не понятно
              */
             myArray1[6] = 5; //поменял элементы местами
